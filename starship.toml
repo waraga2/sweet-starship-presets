@@ -19,9 +19,9 @@ $nim\
 $rust\
 [](fg:#89ABCE bg:#06969A)\
 $docker_context\
-[](fg:#06969A bg:#33658A)\
+[](fg:#06969A bg:#ab0cb6)\
 $time\
-[ ](fg:#33658A)\
+[ ](fg:#ab0cb6)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -120,5 +120,6 @@ format = '[[ $symbol ($version) ](bg:#89ABCE fg:#FFFFFF)]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A fg:#FFFFFF"
-format = '[[ ❤️ $time ](bg:#33658A fg:#FFFFFF)]($style)'
+style = "bg:#ab0cb6 fg:#FFFFFF"
+format = '[[ ❤️ $time ](bg:#ab0cb6 fg:#FFFFFF)]($style)'
+
